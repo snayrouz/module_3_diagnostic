@@ -3,7 +3,6 @@ class SearchController < ApplicationController
     @stations = NrelStation.search(search_filter)
   end
 
-
   private
     def search_filter
       { zip: params[:q] }

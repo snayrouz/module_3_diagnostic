@@ -1,9 +1,8 @@
 class NrelStation
-  def initialize()
-    @zip = zip
-  end
 
-  def initialize
-    @conn = Faraday.new("https://developer.nrel.gov")
-  end
+
+
+  private
+    attrs :name, :address, :fuel_type, :distance, :access_times
+
 end
