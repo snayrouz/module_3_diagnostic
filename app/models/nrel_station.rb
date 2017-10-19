@@ -20,5 +20,4 @@ class NrelStation
       NrelStation.new(raw_station)
     end
   end
-
 end
