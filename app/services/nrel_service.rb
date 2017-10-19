@@ -1,4 +1,4 @@
-class NrelService < ApplicationController
+class NrelService 
   def initialize
     @conn = Faraday.new("https://developer.nrel.gov")
   end
